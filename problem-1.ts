@@ -3,7 +3,7 @@
 let sum: number = 0;
 const sumArray = (param: number[]): number => {
     param.forEach((val: number) => sum += val);
-    return sum;
+    return console.log(sum);
 }
-// console.log(sumArray([1, 2, 3, 5]));
+sumArray([1, 2, 3, 4, 5]);
 }
